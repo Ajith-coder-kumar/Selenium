@@ -39,6 +39,7 @@ public class DropDown {
 				WebElement a = options.get(i);
 				String text = a.getText();
 				System.out.println(text);
+				System.out.println("Checkout");
 			}	
 		}
 	}
